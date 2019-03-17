@@ -53,6 +53,14 @@ body {
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
+.post-title-column {
+	width: 720px;
+}
+
+.post-column {
+	width: 600px;
+}
+
 .colum-1-2 {
 	grid-template-columns: 1fr 2fr;
 }
@@ -67,6 +75,14 @@ body {
 
 .mr-rg-3 {
 	margin-right: 46px;
+}
+
+.mr-lf-4 {
+	margin-left: 120px;
+}
+
+.mr-lf-5 {
+	margin-left: 240px;
 }
 
 .mr-bt-6 {
@@ -214,4 +230,23 @@ body {
 
 .img-soc {
 	margin-right: 49px;
+}
+
+/*POST*/
+
+.header-post-wrap {
+	background-image: url("../img/bg-img.jpg");
+	object-fit: contain;
+}
+
+.post-title {
+	font-size: 36px;
+	color: #2ffbc8;
+	line-height: 1.36;
+	margin-bottom: 51px;
+}
+
+.post-back {
+	font-size: 12px;
+	text-transform: uppercase;
 }
