@@ -123,6 +123,16 @@ body {
 	width: 100%;
 }
 
+.header-wrap::after {
+	content: "";
+	position: absolute;
+	bottom: -130px;
+	height: 130px;
+	width: 100%;
+	background-color: #000;
+	z-index: -1;
+}
+
 .navbar {
 	font-size: 18px;
 	padding-top: 40px;
@@ -167,15 +177,6 @@ body {
 	top: 310px;
 	right: 250px;
 	opacity: 0.1;
-}
-
-.black-space {
-	position: absolute;
-	bottom: -130px;
-	height: 130px;
-	width: 100%;
-	background-color: #000;
-	z-index: -1;
 }
 
 /*CONTENT*/
